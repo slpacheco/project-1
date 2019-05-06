@@ -1,6 +1,6 @@
 body {
   font-family:  "Lato";
-  color:#2d3c49;
+  color: #2d3c49;
 }
 
 #container {
@@ -43,7 +43,7 @@ body {
   margin-bottom: 20px;
 }
 
-.images_container{
+.images_container {
   display: flex;
   justify-content: space-between;
 }
@@ -59,7 +59,7 @@ body {
   display: block;
   margin: 30px 0;
   width: 100%;
- height:  404px;
+ height: 404px;
  object-fit: cover;
 }
 
@@ -83,8 +83,8 @@ body {
 }
 
 .caption_font {
-  font-size:35px;
-  margin-top:11px;
+  font-size: 35px;
+  margin-top: 11px;
   text-align: center;
   letter-spacing: 3.1px;
 }
@@ -122,8 +122,8 @@ color: black;
   text-align: left;
 }
 
-#nav{
-  margin-bottom:28px;
+#nav {
+  margin-bottom: 28px;
 }
 
 .footer_text_content {
@@ -133,24 +133,24 @@ color: black;
   text-align: right;
 }
 
-.icons_box{
+.icons_box {
   margin-top: 10px;
 }
 
-.icon{
+.icon {
   width: 20px;
   margin-left: 8px;
 }
 
-.search_input{
+.search_input {
   width: 250px;
 }
 
-.search_icon{
+.search_icon {
   background: url(../images/search.png) no-repeat;
   background-size: contain;
   width: 20px;
-  margin-left:4px;
+  margin-left: 4px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -159,114 +159,134 @@ color: black;
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    }
-  .featured_link{
+  }
+
+  .featured_link {
      word-break: break-all;
   }
-  .caption_font{
+
+  .caption_font {
     font-size: 23px;
   }
+
   .featured_work_tittle {
     font-size: 50px;
   }
+
   .icons_box {
     display: flex;
   }
+
   .icon {
     width: 40px;
-    height:100%;
+    height: 100%;
     margin-left: 31px;
   }
 
-  .search_icon{
+  .search_icon {
     width: 30px;
     height: 30px;
   }
 
-  .footer_text_content{
+  .footer_text_content {
     text-align: left;
   }
 
-  #fb_item{
+  #fb_item {
     margin-left: 0;
   }
-  html{
+
+  html {
     height: 100%;
   }
-  body{
+
+  body {
     height: 100%;
   }
-  .main_container{
+
+  .main_container {
     flex: 1;
   }
 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .images_container{
     flex-direction: column;
     align-items: center;
   }
+
   .image_1, .image_2, .image_3 {
     margin: 20px 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
   }
-  .featured_image{
+
+  .featured_image {
     height: auto;
   }
-  .featured_work_title{
+
+  .featured_work_title {
      text-align: center;
   }
-  .featured_link{
+
+  .featured_link {
     display: block;
     text-align: center;
     margin-top: 15px;
   }
+
   .header_title {
     font-size: 43px;
   }
 
-  #description{
+  #description {
     text-align: right;
   }
+
 }
 
 @media screen and (max-width: 452px){
-  .header_container{
+  .header_container {
     margin-bottom: 40px;
   }
-  .title_box{
+
+  .title_box {
     align-items: flex-start;
   }
-  .img_logo{
+
+  .img_logo {
      margin-right: 22px;
   }
-  .header_subtitle{
+
+  .header_subtitle {
     margin-top: 8px;
   }
+
   .search_input {
     width: 100%;
   }
-  .icon{
+
+  .icon {
     width: 34px;
   }
 
-  .icons_box{
+  .icons_box {
     margin-top: 31px;
   }
 
-  .image_big{
+  .image_big {
     object-fit: cover;
   }
-  .featured_footer{
+
+  .featured_footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
   }
 
-  .footer_container{
+  .footer_container {
     flex-direction: column-reverse;
   }
 
